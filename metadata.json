@@ -1,0 +1,6 @@
+{
+  "name": "VietinBank Quầy Giao Dịch Số - Kiosk Hỗ Trợ Khách Hàng",
+  "description": "Ứng dụng tương tác với khách hàng tại quầy giao dịch VietinBank: Giải đáp thắc mắc, tải VietinBank iPay, tính lãi suất tiền gửi, biểu phí, mở tài khoản & đánh giá dịch vụ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,476 @@
+{
+  "brand": {
+    "bankName": "VietinBank",
+    "bankFullName": "Ngân hàng TMCP Công Thương Việt Nam",
+    "slogan": "Nâng giá trị cuộc sống",
+    "branchName": "Chi nhánh Bắc Phú Thọ",
+    "counterTitle": "Kiosk Hỗ Trợ Khách Hàng Tại Quầy Giao Dịch",
+    "logo": "./assets/Logo VietinBank.png",
+    "logoFallback": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Logo%20VietinBank.png",
+    "hotline247": "1900 558 868",
+    "advisor": {
+      "name": "Trần Hoàng Trung",
+      "title": "Chuyên viên tư vấn khách hàng",
+      "phone": "0973.874.232"
+    }
+  },
+  "messages": {
+    "question": "Anh/chị đang gặp khó khăn với nội dung nào?",
+    "feedbackQuestion": "Anh/chị đã thực hiện ổn hay chưa?",
+    "btnOk": "Đã ổn",
+    "btnNotOk": "Chưa ổn",
+    "btnBackToMenu": "Quay lại menu chính",
+    "btnEndConversation": "Kết thúc cuộc trò chuyện",
+    "feedbackNotOkResponse": "Cảm ơn Quý khách đã phản hồi. Quý khách có thể liên hệ Chuyên viên tư vấn Trần Hoàng Trung – số điện thoại: 0973.874.232 để hỗ trợ trực tiếp. Em sẽ cố gắng cải thiện để phục vụ Quý khách tốt hơn!",
+    "farewell": "Cảm ơn Quý khách đã sử dụng dịch vụ của VietinBank. Chúc Quý khách một ngày tốt lành!"
+  },
+  "features": [
+    {
+      "id": "faq",
+      "number": "01",
+      "title": "Giải đáp thắc mắc",
+      "subtitle": "Hướng dẫn xử lý lỗi iPay & nghiệp vụ thường gặp",
+      "icon": "HelpCircle"
+    },
+    {
+      "id": "download_app",
+      "number": "02",
+      "title": "Tải App VietinBank iPay",
+      "subtitle": "Quét mã QR tải app cho iOS & Android",
+      "icon": "Smartphone"
+    },
+    {
+      "id": "deposit_calc",
+      "number": "03",
+      "title": "Tính lãi suất tiền gửi",
+      "subtitle": "Công cụ tính tiền lãi dự tính & video hướng dẫn",
+      "icon": "Calculator"
+    },
+    {
+      "id": "rates",
+      "number": "04",
+      "title": "Biểu lãi suất & Tỷ giá",
+      "subtitle": "Cập nhật lãi suất tiền gửi và tỷ giá ngoại tệ mới nhất",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": "open_account",
+      "number": "05",
+      "title": "Mở TK số đẹp & Thẻ",
+      "subtitle": "Chọn số tài khoản phong thủy & thẻ kép Eliv3",
+      "icon": "CreditCard"
+    },
+    {
+      "id": "feedback",
+      "number": "06",
+      "title": "Đánh giá chất lượng quầy",
+      "subtitle": "Khảo sát sự hài lòng và đóng góp ý kiến",
+      "icon": "Star"
+    },
+    {
+      "id": "emergency",
+      "number": "07",
+      "title": "Hỗ trợ khẩn cấp & Hotline",
+      "subtitle": "Khóa thẻ khẩn cấp & liên hệ chuyên viên tư vấn",
+      "icon": "PhoneCall"
+    }
+  ],
+  "faqCards": [
+    {
+      "id": "forgot_password",
+      "cardNumber": 1,
+      "title": "Hướng dẫn quên mật khẩu Ipay",
+      "shortDesc": "Khôi phục mật khẩu iPay nhanh chóng qua xác thực OTP và nhận diện khuôn mặt.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=86r0pxPOzbs",
+      "youtubeEmbedId": "86r0pxPOzbs",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Chọn Quên mật khẩu",
+          "description": "Ở màn hình đăng nhập, chọn Quên mật khẩu.",
+          "image": "./assets/1.1.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.1.png"
+        },
+        {
+          "step": 2,
+          "title": "Nhập thông tin xác thực",
+          "description": "Nhập tên đăng nhập và số điện thoại đăng ký sau đó bấm “Tiếp tục”.",
+          "image": "./assets/1.2.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.2.png"
+        },
+        {
+          "step": 3,
+          "title": "Nhập mã OTP SMS",
+          "description": "Nhập mã OTP được gửi về tin nhắn SMS, sau đó bấm Tiếp tục.",
+          "image": "./assets/1.3.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.3.png"
+        },
+        {
+          "step": 4,
+          "title": "Xác thực khuôn mặt",
+          "description": "Xác thực khuôn mặt theo yêu cầu. Sau khi hoàn thành Ipay sẽ gửi mật khẩu mới về tin nhắn (SMS). Bấm đăng nhập Ipay để tiếp tục.",
+          "image": "./assets/1.4.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.4.png"
+        },
+        {
+          "step": 5,
+          "title": "Đổi mật khẩu theo yêu cầu",
+          "description": "Nhập mật khẩu theo yêu cầu. Mật khẩu hiện tại: Nhập theo mật khẩu được gửi về tin nhắn (SMS). Mật khẩu mới: Là mật khẩu mà khách hàng cần đổi. Bấm Tiếp tục.",
+          "image": "./assets/1.5.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.5.png"
+        },
+        {
+          "step": 6,
+          "title": "Hoàn tất xác nhận khuôn mặt",
+          "description": "Thực hiện quét khuôn mặt để xác nhận đổi mật khẩu thành công.",
+          "image": "./assets/1.6.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.6.png"
+        }
+      ]
+    },
+    {
+      "id": "close_card",
+      "cardNumber": 2,
+      "title": "Hướng dẫn đóng thẻ",
+      "shortDesc": "Thao tác chủ động đóng hoặc khóa thẻ thanh toán an toàn trực tiếp trên ứng dụng iPay.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=acdT3KxET40",
+      "youtubeEmbedId": "acdT3KxET40",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Đăng nhập VietinBank iPay",
+          "description": "Đăng nhập vào App VietinBank Ipay.",
+          "image": "./assets/2.1.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.1.png"
+        },
+        {
+          "step": 2,
+          "title": "Vào danh sách thẻ",
+          "description": "Vào mục danh sách thẻ.",
+          "image": "./assets/2.2.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.2.png"
+        },
+        {
+          "step": 3,
+          "title": "Chọn thẻ cần đóng",
+          "description": "Xem đúng thẻ cần đóng, bấm vào phần xem thêm.",
+          "image": "./assets/2.3.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.3.png"
+        },
+        {
+          "step": 4,
+          "title": "Chọn tính năng Đóng thẻ",
+          "description": "Chọn đóng thẻ.",
+          "image": "./assets/2.4.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.4.png"
+        },
+        {
+          "step": 5,
+          "title": "Nhập mã xác thực OTP",
+          "description": "Nhập mã OTP.",
+          "image": "./assets/2.5.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.5.png"
+        },
+        {
+          "step": 6,
+          "title": "Xác nhận đóng thẻ thành công",
+          "description": "Xác nhận OTP để hoàn tất đóng thẻ an toàn.",
+          "image": "./assets/2.6.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.6.png"
+        }
+      ]
+    },
+    {
+      "id": "verify_chip_id",
+      "cardNumber": 3,
+      "title": "Xác thực CCCD gắn chip",
+      "shortDesc": "Chuẩn hóa thông tin định danh bằng công nghệ đọc thẻ căn cước gắn chip qua kết nối NFC.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+      "youtubeEmbedId": "9yYn3SbMT9A",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Chuẩn bị CCCD & Bật NFC",
+          "description": "Đăng nhập VietinBank iPay, chọn tính năng Xác thực / Cập nhật CCCD gắn chip. Bật kết nối NFC trên điện thoại.",
+          "image": "./assets/3.1.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.1.png"
+        },
+        {
+          "step": 2,
+          "title": "Bắt đầu chụp giấy tờ",
+          "description": "Bấm vào “Bắt đầu chụp” để tiến hành chụp mặt trước và mặt sau thẻ căn cước.",
+          "image": "./assets/3.2.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.2.png"
+        },
+        {
+          "step": 3,
+          "title": "Chụp rõ nét mặt trước CCCD",
+          "description": "Đặt thẻ căn cước công dân vào đúng khung hình chụp, không để bị chói sáng hoặc mất góc.",
+          "image": "./assets/3.3.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.3.png"
+        },
+        {
+          "step": 4,
+          "title": "Chụp mặt sau & Đọc chip",
+          "description": "Chụp mặt sau thẻ căn cước có chip vi mạch điện tử.",
+          "image": "./assets/3.4.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.4.png"
+        },
+        {
+          "step": 5,
+          "title": "Xác nhận hướng dẫn NFC",
+          "description": "Click vào nút “Đã hiểu” để xem hướng dẫn vị trí chạm chip CCCD với điện thoại.",
+          "image": "./assets/3.5.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.5.png"
+        },
+        {
+          "step": 6,
+          "title": "Đọc chip NFC mặt sau điện thoại",
+          "description": "Đặt mặt trước CCCD áp sát ngay mặt sau điện thoại để đọc chip NFC dữ liệu dân cư.",
+          "image": "./assets/3.7.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.7.png"
+        }
+      ]
+    },
+    {
+      "id": "update_biometrics",
+      "cardNumber": 4,
+      "title": "Hướng dẫn cập nhật sinh trắc học",
+      "shortDesc": "Tuân thủ Quyết định 2345/QĐ-NHNN bảo vệ giao dịch chuyển tiền trực tuyến bằng khuôn mặt.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+      "youtubeEmbedId": "9yYn3SbMT9A",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Đăng nhập App",
+          "description": "Bước 1: Đăng nhập VietinBank Ipay.",
+          "image": "./assets/3.1.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.1.png"
+        },
+        {
+          "step": 2,
+          "title": "Bắt đầu chụp giấy tờ",
+          "description": "Bước 2: Click vào “Bắt đầu chụp”.",
+          "image": "./assets/3.2.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.2.png"
+        },
+        {
+          "step": 3,
+          "title": "Chụp mặt trước CCCD",
+          "description": "Bước 3: Chụp mặt trước căn cước công dân.",
+          "image": "./assets/3.3.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.3.png"
+        },
+        {
+          "step": 4,
+          "title": "Chụp mặt sau CCCD",
+          "description": "Bước 4: Chụp mặt sau căn cước công dân.",
+          "image": "./assets/3.4.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.4.png"
+        },
+        {
+          "step": 5,
+          "title": "Xem hướng dẫn NFC",
+          "description": "Bước 5: Click vào nút “Đã hiểu”.",
+          "image": "./assets/3.5.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.5.png"
+        },
+        {
+          "step": 6,
+          "title": "Xác thực khuôn mặt",
+          "description": "Bước 6: Đưa gương mặt vào khung hình.",
+          "image": "./assets/3.6.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.6.png"
+        },
+        {
+          "step": 7,
+          "title": "Quét chip NFC",
+          "description": "Bước 7: Đặt mặt trước CCCD ngay mặt sau điện thoại để đọc NFC.",
+          "image": "./assets/3.7.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.7.png"
+        },
+        {
+          "step": 8,
+          "title": "Hoàn tất xác thực",
+          "description": "Bước 8: Bấm tiếp tục để hệ thống xác nhận dữ liệu sinh trắc học thành công.",
+          "image": "./assets/3.8.png",
+          "remoteImage": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.8.png"
+        }
+      ]
+    }
+  ],
+  "downloadApp": {
+    "title": "Tải Ngay Ứng Dụng VietinBank iPay",
+    "subtitle": "Ngân hàng số thông minh dành cho bạn - Mọi giao dịch tài chính trong tầm tay",
+    "iosUrl": "https://apps.apple.com/vn/app/vietinbank-ipay/id689458988",
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+    "qrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fwww.vietinbank.vn%2Fipay",
+    "features": [
+      {
+        "title": "Miễn phí 100% giao dịch",
+        "desc": "Chuyển tiền nhanh 24/7 trong và ngoài hệ thống hoàn toàn miễn phí"
+      },
+      {
+        "title": "Mở tài khoản eKYC chỉ 3 phút",
+        "desc": "Định danh điện tử tức thì bằng CCCD gắn chip, không cần tới quầy"
+      },
+      {
+        "title": "Gửi tiết kiệm lãi suất cộng thêm",
+        "desc": "Ưu đãi cộng thêm tới 0.4%/năm so với gửi tại quầy"
+      },
+      {
+        "title": "Bảo mật sinh trắc học FIDO",
+        "desc": "Bảo vệ an toàn tài sản tài khoản theo Quyết định 2345/QĐ-NHNN"
+      }
+    ],
+    "activationSteps": [
+      "Quét mã QR bằng Camera điện thoại hoặc tải trên App Store / Google Play",
+      "Mở app VietinBank iPay và chọn 'Mở tài khoản mới' hoặc 'Đăng nhập'",
+      "Chụp ảnh CCCD gắn chip và quét khuôn mặt theo hướng dẫn",
+      "Kích hoạt Soft OTP và bắt đầu trải nghiệm ngân hàng số ngay lập tức"
+    ]
+  },
+  "depositCalculator": {
+    "title": "Công cụ tính lãi suất tiền gửi sản phẩm tiền gửi thông thường trả lãi sau",
+    "rules": {
+      "amount": {
+        "required": true,
+        "min": 1000000,
+        "errorMessage": "Vui lòng nhập số tiền gửi hợp lệ."
+      },
+      "term": {
+        "required": true,
+        "validTerms": [1, 2, 3, 6, 9, 12, 18, 24, 36],
+        "errorMessage": "Vui lòng chọn kỳ hạn gửi."
+      },
+      "interestRate": {
+        "required": true,
+        "min": 0,
+        "max": 20,
+        "errorMessage": "Vui lòng nhập lãi suất hợp lệ."
+      }
+    },
+    "standardRates": {
+      "1": 3.0,
+      "2": 3.0,
+      "3": 3.4,
+      "6": 4.5,
+      "9": 4.5,
+      "12": 5.2,
+      "18": 5.3,
+      "24": 5.3,
+      "36": 5.3
+    },
+    "quickAmounts": [
+      { "label": "20 Triệu", "value": 20000000 },
+      { "label": "50 Triệu", "value": 50000000 },
+      { "label": "100 Triệu", "value": 100000000 },
+      { "label": "200 Triệu", "value": 200000000 },
+      { "label": "500 Triệu", "value": 500000000 },
+      { "label": "1 Tỷ", "value": 1000000000 }
+    ],
+    "guideVideo": {
+      "title": "Video Hướng dẫn gửi tiết kiệm VietinBank",
+      "tiktokUrl": "https://www.tiktok.com/@nguyentrangtkneu/video/7202579533806062875?is_from_webapp=1&sender_device=pc&web_id=7603681770291086866"
+    }
+  },
+  "interestRatesTable": [
+    { "term": "Không kỳ hạn", "counterRate": "0.10%", "onlineRate": "0.10%" },
+    { "term": "1 Tháng", "counterRate": "2.80%", "onlineRate": "3.00%" },
+    { "term": "2 Tháng", "counterRate": "2.80%", "onlineRate": "3.00%" },
+    { "term": "3 Tháng", "counterRate": "3.20%", "onlineRate": "3.40%" },
+    { "term": "6 Tháng", "counterRate": "4.20%", "onlineRate": "4.50%" },
+    { "term": "9 Tháng", "counterRate": "4.20%", "onlineRate": "4.50%" },
+    { "term": "12 Tháng", "counterRate": "4.80%", "onlineRate": "5.20%" },
+    { "term": "18 Tháng", "counterRate": "5.00%", "onlineRate": "5.30%" },
+    { "term": "24 - 36 Tháng", "counterRate": "5.00%", "onlineRate": "5.30%" }
+  ],
+  "exchangeRates": [
+    { "currency": "USD", "name": "Đô la Mỹ", "buyCash": "25,080", "buyTransfer": "25,110", "sell": "25,470" },
+    { "currency": "EUR", "name": "Đồng Euro", "buyCash": "26,890", "buyTransfer": "26,970", "sell": "27,990" },
+    { "currency": "GBP", "name": "Bảng Anh", "buyCash": "31,950", "buyTransfer": "32,078", "sell": "33,020" },
+    { "currency": "JPY", "name": "Yên Nhật", "buyCash": "163.50", "buyTransfer": "165.15", "sell": "172.50" },
+    { "currency": "SGD", "name": "Đô la Singapore", "buyCash": "18,920", "buyTransfer": "19,050", "sell": "19,720" },
+    { "currency": "AUD", "name": "Đô la Úc", "buyCash": "16,420", "buyTransfer": "16,535", "sell": "17,100" }
+  ],
+  "cardAndAccount": {
+    "accountTypes": [
+      {
+        "type": "Tài khoản Số đẹp Phong thủy",
+        "desc": "Tài khoản lộc phát (68, 86), thần tài (39, 79), tam hoa, tứ quý thể hiện đẳng cấp tài chính.",
+        "badge": "Miễn phí chọn số"
+      },
+      {
+        "type": "Tài khoản Số điện thoại / Ngày sinh",
+        "desc": "Trùng khớp 100% với số điện thoại hoặc ngày tháng năm sinh, ghi nhớ siêu dễ dàng.",
+        "badge": "Tặng ngay khi eKYC"
+      },
+      {
+        "type": "Tài khoản Alias Biệt danh",
+        "desc": "Đặt tên tài khoản cá tính bằng nickname/tên shop (ví dụ: SHOPTRANG, HOANGTRUNG) chuyển tiền không cần nhớ số.",
+        "badge": "Công nghệ mới"
+      }
+    ],
+    "cards": [
+      {
+        "name": "Thẻ kép VietinBank Eliv3",
+        "type": "Thẻ 2 trong 1 (Tín dụng & Ghi nợ trên cùng 1 chip)",
+        "features": [
+          "Hoàn tiền 10% tại cụm rạp chiếu phim, ẩm thực, giải trí",
+          "Miễn lãi lên tới 55 ngày",
+          "Tích lũy điểm thưởng không giới hạn đổi quà iPay"
+        ]
+      },
+      {
+        "name": "Thẻ Quốc tế VietinBank Premium Visa Signature",
+        "type": "Thẻ tín dụng hạng cao cấp",
+        "features": [
+          "Đặc quyền phòng chờ sân bay thương gia quốc tế",
+          "Bảo hiểm du lịch toàn cầu giá trị tới 10,5 tỷ đồng",
+          "Ưu đãi dịch vụ Golf và nghỉ dưỡng sang trọng"
+        ]
+      },
+      {
+        "name": "Thẻ Ghi nợ Nội địa VietinBank Napas",
+        "type": "Thẻ thanh toán thông minh",
+        "features": [
+          "Rút tiền không cần thẻ tại hàng nghìn cây ATM bằng QR iPay",
+          "Thanh toán một chạm Contactless cực nhanh chóng",
+          "Bảo mật tối tân theo tiêu chuẩn thẻ chip VCCS"
+        ]
+      }
+    ]
+  },
+  "ratingFeedback": {
+    "title": "Đánh giá chất lượng phục vụ tại quầy giao dịch",
+    "subtitle": "Ý kiến đóng góp của Quý khách là cơ sở quý báu để VietinBank nâng cao chất lượng dịch vụ mỗi ngày.",
+    "criteria": [
+      "Thái độ phục vụ tận tâm, lịch thiệp của giao dịch viên",
+      "Tốc độ tiếp nhận và xử lý hồ sơ giao dịch nhanh chóng",
+      "Không gian phòng giao dịch sạch sẽ, tiện nghi và hiện đại",
+      "Sự rõ ràng, đầy đủ trong quá trình hướng dẫn thủ tục"
+    ]
+  },
+  "emergencyHelp": {
+    "title": "Hỗ trợ khẩn cấp & Hotline phòng giao dịch",
+    "emergencyActions": [
+      {
+        "title": "Khóa thẻ khẩn cấp qua SMS",
+        "instruction": "Soạn cú pháp: CTG KHOATHE gửi 8149 từ số điện thoại đã đăng ký dịch vụ."
+      },
+      {
+        "title": "Khóa thẻ tức thì trên App iPay",
+        "instruction": "Đăng nhập App iPay -> Dịch vụ thẻ -> Khóa thẻ -> Xác nhận mã OTP chỉ trong 5 giây."
+      },
+      {
+        "title": "Báo mất điện thoại / Tạm khóa dịch vụ iPay",
+        "instruction": "Gọi ngay Tổng đài VietinBank 1900 558 868 nhấn phím 1 để yêu cầu điện thoại viên khóa khẩn cấp."
+      }
+    ],
+    "hotlineList": [
+      { "label": "Tổng đài Chăm sóc khách hàng 24/7", "value": "1900 558 868", "sub": "Miễn phí hỗ trợ mọi lúc, mọi nơi" },
+      { "label": "Chuyên viên tư vấn Trần Hoàng Trung", "value": "0973.874.232", "sub": "Hỗ trợ trực tiếp khách hàng tại quầy" },
+      { "label": "Đường dây nóng Chi nhánh Bắc Phú Thọ", "value": "0210 382 1234", "sub": "Phòng khách hàng cá nhân & dịch vụ quầy" }
+    ]
+  }
+}
